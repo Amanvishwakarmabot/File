@@ -15,7 +15,7 @@ class Var(object):
     API_ID = int(getenv('API_ID', '24004349'))
     API_HASH = str(getenv('API_HASH', '5aabfb11c262b17d568d828a3100f296'))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , '6568488552:AAGUd-ZIsr9EeflSgbdhIoPXSMnidRdUoPA'))
-    name = str(getenv('name', 'bisal_file2link_bot'))
+    name = str(getenv('name', 'MovieStorage0_BBot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002062708890'))
@@ -26,7 +26,7 @@ class Var(object):
     OWNER_ID = [int(x) for x in os.environ.get("OWNER_ID", "5977931010").split()]
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
-    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'biisal'))
+    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'BOT_OWNER26'))
     if 'DYNO' in environ:
         ON_HEROKU = True
         APP_NAME = str(getenv('APP_NAME')) #dont need to fill anything here
@@ -39,8 +39,8 @@ class Var(object):
         URL = "https://{}/".format(FQDN)
     else:
         URL = "http://{}/".format(FQDN)
-    DATABASE_URL = str(getenv('DATABASE_URL', ''))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'bisal_files')) 
-    BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
+    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://ranjuvishwakarma50:aman@cluster0.x1uh5bc.mongodb.net/?retryWrites=true&w=majority'))
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'MOVIEBOTUPDETA')) 
+    BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1002055043634")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
     BAN_ALERT = str(getenv('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ @biisal_bot ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>'))
