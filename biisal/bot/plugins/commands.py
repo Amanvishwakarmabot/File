@@ -215,7 +215,7 @@ async def cb_handler(client, query):
             [InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=bisal_grp)],
 
             [
-                 InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://telegra.ph/Disclaimer-11-07-37"),
+                 InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://www.google.com"),
                  InlineKeyboardButton("ᴅᴇᴠ 😊", callback_data="aboutDev")
             ]
         ]
@@ -225,7 +225,7 @@ async def cb_handler(client, query):
     
     elif data == "about":
         await query.message.edit_caption(
-            caption=f"<b>Mʏ ɴᴀᴍᴇ :<a href='https://t.me/MOVIEBOTUPDETA'>{bot_name}</a>\nAᴅᴍɪɴ : <a href='https://t.me/BOT_OWNER26'>AMAN</a>\nʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\nᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\nʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3</b>",
+            caption=f"<b>Mʏ ɴᴀᴍᴇ :<a href='http://t.me/YD_FILES_TO_LINKS_BOT'>{bot_name}</a>\nAᴅᴍɪɴ : <a href='https://t.me/BOT_OWNER26'>AMAN</a>\nʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\nᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\nʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3</b>",
             reply_markup=InlineKeyboardMarkup(
                 [[ 
                      InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
