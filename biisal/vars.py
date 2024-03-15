@@ -8,13 +8,13 @@ from dotenv import load_dotenv
 load_dotenv()
 bot_name = "Bɪɪsᴀʟ Fɪʟᴇ2Lɪɴᴋ Bᴏᴛ"
 bisal_channel = "https://t.me/MOVIEBOTUPDETA"
-bisal_grp = "https://t.me/findhere7"
+bisal_grp = "https://t.me/findhere6"
 
 class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '24004349'))
     API_HASH = str(getenv('API_HASH', '5aabfb11c262b17d568d828a3100f296'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN' , '6366130177:AAF9koIXTw53Ow7zpe1zPKW9MVNrcV2Gogk'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7155709547:AAFnyS3WMziYmRV7GdVDE7IU7LPz00RMIiM'))
     name = str(getenv('name', 'YD_FILES_TO_LINKS_BOT'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
